@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông tin chi tiết nhân viên"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <!-- Trường username (chỉ hiện khi là admin) -->
+        <TextView android:id="@+id/labelUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tên đăng nhập:" android:visibility="gone"/>
+        <EditText android:id="@+id/editTextUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Tên đăng nhập" android:visibility="gone"/>
+
+        <!-- Trường password (chỉ hiện khi là admin) -->
+        <TextView android:id="@+id/labelPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mật khẩu mới:" android:visibility="gone"/>
+        <EditText android:id="@+id/editTextPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Để trống nếu không đổi" android:inputType="textPassword" android:visibility="gone"/>
+
+        <TextView android:text="Họ tên:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextHoTen" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Họ tên" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Ngày sinh:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextNgaySinh" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="dd/MM/yyyy" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Giới tính:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextGioiTinh" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nam/Nữ" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Địa chỉ:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextDiaChi" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Địa chỉ" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Số điện thoại:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextSoDienThoai" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Số điện thoại" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Email:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Chức vụ:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextChucVu" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Chức vụ" android:paddingBottom="8dp" android:enabled="false"/>
+
+        <TextView android:text="Ngày vào làm:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextNgayVaoLam" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ngày vào làm" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Lương cơ bản:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextLuongCoBan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lương cơ bản" android:paddingBottom="8dp" android:inputType="numberDecimal"/>
+
+        <TextView android:text="Trạng thái:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextTrangThai" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Trạng thái" android:paddingBottom="8dp"/>
+
+        <TextView android:text="Ghi chú:" style="@style/TextAppearance.AppCompat.Medium" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/editTextGhiChu" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ghi chú" android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/buttonSaveInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu thông tin"/>
+        <Button
+            android:id="@+id/buttonDeleteInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xóa thông tin"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView> 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tiệm Chùi Xe</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="button_login">Đăng nhập</string>
+    
+    <!-- Employee Management -->
+    <string name="employee_list_title">Danh sách Nhân viên</string>
+    <string name="add_employee">Thêm Nhân viên Mới</string>
+    <string name="edit_employee">Sửa Thông tin Nhân viên</string>
+    <string name="hint_employee_name">Tên nhân viên</string>
+    <string name="hint_employee_username">Tên đăng nhập</string>
+    <string name="hint_employee_password">Mật khẩu (để trống nếu không đổi)</string>
+    <string name="button_save">Lưu</string>
+    
+    <!-- Service Management -->
+    <string name="service_list_title">Danh sách Dịch vụ</string>
+    <string name="add_service">Thêm Dịch vụ Mới</string>
+    <string name="edit_service">Sửa Dịch vụ</string>
+    <string name="hint_service_name">Tên dịch vụ</string>
+    <string name="hint_service_price">Giá tiền</string>
+    
+    <!-- Main Menu -->
+    <string name="menu_manage_employees">Quản lý Nhân viên</string>
+    <string name="menu_manage_services">Quản lý Dịch vụ</string>
+    <string name="menu_create_ticket">Tạo Phiếu Rửa Xe</string>
+    <string name="menu_view_tickets">Xem Danh sách Phiếu</string>
+    <string name="menu_revenue_statistics">Thống kê Doanh thu</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="view_tickets_button_text">Xem Danh sách Phiếu</string>
+    <string name="logout_button_text">Đăng xuất</string>
+    
+    <!-- Messages -->
+    <string name="error_login">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="error_required_fields">Vui lòng điền đầy đủ thông tin</string>
+    <string name="error_access_denied">Bạn không có quyền truy cập chức năng này</string>
+    <string name="success_save">Lưu thành công</string>
+    <string name="error_save">Lỗi khi lưu</string>
+    
+    <!-- Ticket Management -->
+    <string name="title_list_ticket">Danh sách phiếu rửa xe</string>
+    <string name="title_create_ticket">Tạo phiếu rửa xe mới</string>
+    <string name="title_ticket_detail">Chi tiết phiếu rửa xe</string>
+    <string name="hint_customer_name">Tên khách hàng</string>
+    <string name="hint_customer_phone">Số điện thoại</string>
+    <string name="hint_license_plate">Biển số xe</string>
+    <string name="hint_vehicle_type">Loại xe</string>
+    <string name="label_total_amount">Tổng tiền</string>
+    <string name="label_status">Trạng thái</string>
+    <string name="status_waiting">Chờ rửa</string>
+    <string name="status_washing">Đang rửa</string>
+    <string name="status_completed">Hoàn thành</string>
+    <string name="status_cancelled">Đã hủy</string>
+    <string name="button_save_ticket">Lưu phiếu</string>
+    <string name="button_select_services">Chọn dịch vụ</string>
+    <string name="error_invalid_phone">Số điện thoại không hợp lệ</string>
+    <string name="error_no_services">Vui lòng chọn ít nhất một dịch vụ</string>
+    <string name="success_create_ticket">Tạo phiếu rửa xe thành công</string>
+    <string name="error_create_ticket">Không thể tạo phiếu rửa xe</string>
+    <string name="navigation_drawer_open">Mở menu</string>
+    <string name="navigation_drawer_close">Đóng menu</string>
+</resources>

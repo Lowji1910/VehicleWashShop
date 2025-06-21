@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_profile"
+        android:title="Thông tin cá nhân"
+        android:icon="@android:drawable/ic_menu_myplaces"/>
+    <item android:id="@+id/nav_employee"
+        android:title="Quản lý nhân viên"
+        android:icon="@android:drawable/ic_menu_manage"/>
+    <item android:id="@+id/nav_service"
+        android:title="Quản lý dịch vụ"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+    <item android:id="@+id/nav_create_ticket"
+        android:title="Tạo phiếu"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item android:id="@+id/nav_list_ticket"
+        android:title="Danh sách phiếu"
+        android:icon="@android:drawable/ic_menu_view"/>
+    <item android:id="@+id/nav_revenue"
+        android:title="Thống kê doanh thu"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    <item android:id="@+id/nav_logout"
+        android:title="Đăng xuất"
+        android:icon="@android:drawable/ic_lock_power_off"/>
+</menu> 
